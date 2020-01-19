@@ -1,0 +1,13 @@
+/****this is the style sheet for surveyform web application***/
+body,label,p,div{
+
+font-size:14px; font-family: Times New Roman; font-weight:700;
+padding:20px;
+width:100%;
+
+
+}
+
+.form-control{
+	height:45px; font-family:Century Gothic; font-weight:600; border-radius:5px; border:1px solid #dfdfdf;
+}
