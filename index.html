@@ -23,19 +23,19 @@ This is a survey form for receiving inputs from users
 <Div class="row">
 <div class="col-md-6 col-lg-6">
 <label for="name" id="name-label">Name</label>
-<input type="text" name="name" class="form-control" id="name" required/>
+<input type="text" name="name" class="form-control" placeholder="Introduce your name" id="name" required/>
 </div>
 
 <div class="col-md-6 col-lg-6">
 <label for="email" id="email-label">Email</label>
-<input type="email" name="email_address" class="form-control" id="email" required/>
+<input type="email" name="email_address" class="form-control" placeholder="Introduce your email" id="email" required/>
 </div>
 </div>
 
 <div class="row">
 <div class="col-md-6 col-lg-6">
 <label id="number-label">Number</label>
-<input type="number" name="age" class="form-control" id="number" min=1 max=20 required/>
+<input type="number" name="age" class="form-control" placeholder="Introduce your age" id="number" min=1 max=20 required/>
 
 </div>
 
@@ -45,6 +45,16 @@ This is a survey form for receiving inputs from users
 </div>
 </div>
 
+<div class="col-md-6 col-lg-6">
+<label for="role">What is your role?</label>
+<select name="role" class="form-control" id="dropdown">
+<option value="student">Student</option>
+<option value="fulltime">Full-Time job</option>
+<option value="partime">Part-Time job</option>
+<option value="other">Other</option>
+</select>
+</div>
+</div>
 
 <div class="row">
 <div class="col-md-6 col-lg-6">
